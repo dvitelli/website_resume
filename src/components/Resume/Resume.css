@@ -1,0 +1,128 @@
+#resume {
+    
+    font-size: 14px;
+    font-family: "Lato";
+    width: 832px;
+    margin: 0 auto;
+    background-color: #F4F3F7;
+}
+
+#resume #header {
+
+    width: 100%;
+    padding: 100px 64px 0;
+    height: 260px;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    position: relative;
+
+}
+
+#resume #name {
+
+    font-size: 40px;
+
+}
+
+#resume #role {
+
+    font-size: 18px;
+
+}
+
+#resume #pfp {
+
+    position: absolute;
+    bottom: 24px;
+    right: 64px;
+
+}
+
+#resume #pfp img {
+
+    height: 130px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+
+}
+
+#resume #primary {
+
+    padding-left: 54px;
+
+}
+
+#resume .contact {
+
+    display: flex;
+    margin: 5px;
+    align-items: center;
+
+}
+
+#resume .contact span {
+
+
+    padding-left: 16px;
+
+}
+
+
+#resume .contact .icon {
+
+    height: 2em;
+    width: 2em;
+    border-radius: 50%;
+    background-color: #363636;
+
+}
+
+#resume #secondary {
+
+    padding: 0 40px;
+    /* old was 75 */
+}
+
+#resume #job {
+
+    justify-content: space-between;
+}
+ 
+#resume h1,
+#resume h2,
+#resume h3 {
+
+    font-weight: 900;
+
+}
+
+#resume h1 {
+
+    font-size: 16px;
+
+}
+
+#resume h2 {
+
+    font-size: 14px;
+
+}
+
+#resume h3 {
+
+    font-size: 12px;
+
+}
+
+
+
+.flex {
+
+    display: flex;
+
+}
+
+.flex-row {
+
+    flex-direction: row;
+}
